@@ -15,7 +15,7 @@ export const TEAM = [
     phone: "0711649220",
     github: "https://github.com/Joshua-T-Masunda",
     linkedin: "https://www.linkedin.com/in/joshua-masunda-b2b51a379/",
-    photo: "/team/josh.jpeg"
+    photo: `${import.meta.env.BASE_URL}team/josh.jpeg`
   },
   { 
     num: "Horsewoman II", 
@@ -28,7 +28,7 @@ export const TEAM = [
     phone: "0637411144",
     github: "https://github.com/Malwande-Meisie",
     linkedin: "www.linkedin.com/in/meisie-malwande-kunene-3142b7328",
-    photo: "/team/meisie.jpeg"
+    photo: `${import.meta.env.BASE_URL}team/meisie.jpeg`
   },
   { 
     num: "Horseman III",
@@ -41,6 +41,6 @@ export const TEAM = [
     phone: "0672408173",
     github: "https://github.com/Sifiso-xx",
     linkedin: "https://www.linkedin.com/in/sifisokuhle-mavundla",
-    photo: "/team/sfiso.jpeg"
+    photo: `${import.meta.env.BASE_URL}team/sfiso.jpeg`
   },
 ];
